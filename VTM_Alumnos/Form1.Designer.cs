@@ -36,7 +36,8 @@ namespace VTM_Alumnos
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -103,9 +104,9 @@ namespace VTM_Alumnos
             // 
             // aluNota
             // 
-            this.aluNota.Location = new System.Drawing.Point(307, 58);
+            this.aluNota.Location = new System.Drawing.Point(308, 58);
             this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(87, 20);
+            this.aluNota.Size = new System.Drawing.Size(76, 20);
             this.aluNota.TabIndex = 7;
             // 
             // Form1
@@ -123,6 +124,7 @@ namespace VTM_Alumnos
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +139,7 @@ namespace VTM_Alumnos
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
 
