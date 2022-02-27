@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VTM_2122_Alumnos
+namespace VTM_Alumnos
 {
     static class Program
     {

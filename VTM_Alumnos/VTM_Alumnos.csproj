@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CEF836E9-8DF0-485B-BC4B-D2044661AFF9}</ProjectGuid>
+    <ProjectGuid>{C375B350-4F9A-46A2-AF00-3D81F5B23604}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>VTM_2122_Alumnos</RootNamespace>
-    <AssemblyName>VTM_2122_Alumnos</AssemblyName>
+    <RootNamespace>VTM_Alumnos</RootNamespace>
+    <AssemblyName>VTM_Alumnos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
